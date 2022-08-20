@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(to right,#432ea2,rgb(104, 147, 232));
+    margin:0;
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    grid-template-columns: repeat(2,600px);
+}
+.movie{
+    border-radius: 5px;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(135, 10, 224); 
+    margin: 10px;
+}
+img{
+    object-fit: contain;
+    height:400px;
+    width: 500px;
+    margin:10px;
+}
+.movie-info{
+    color:white;
+    display: inline;
+    padding:1rem;
+    margin:10px;
+
+}
+.overview{
+    color:white;
+    padding:1rem;
+    margin:10px;
+}
+.search{
+    border:1px solid black;
+    padding: 2px;
+}
+.search::placeholder{
+    color: #211a3e;
+}
